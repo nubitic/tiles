@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ModularTilesListener.java 819199 2009-09-26 19:45:14Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,7 +27,7 @@ import org.apache.tiles.web.startup.AbstractTilesListener;
 /**
  * Tiles listener that executes {@link ModularTilesInitializer}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 819199 $ $Date: 2009-09-27 05:45:14 +1000 (Sun, 27 Sep 2009) $
  * @since 2.2.1
  */
 public class ModularTilesListener extends AbstractTilesListener {

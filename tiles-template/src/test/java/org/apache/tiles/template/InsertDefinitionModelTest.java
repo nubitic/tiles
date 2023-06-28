@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: InsertDefinitionModelTest.java 920007 2010-03-07 14:52:51Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -41,7 +41,7 @@ import org.junit.Test;
 /**
  * Tests {@link InsertDefinitionModel}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 920007 $ $Date: 2010-03-08 01:52:51 +1100 (Mon, 08 Mar 2010) $
  */
 public class InsertDefinitionModelTest {
 

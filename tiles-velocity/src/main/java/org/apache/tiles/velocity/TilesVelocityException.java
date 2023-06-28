@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesVelocityException.java 1035820 2010-11-16 21:26:24Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,7 +26,7 @@ import org.apache.tiles.TilesException;
 /**
  * Exception connected to the usage of Velocity and Tiles.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1035820 $ $Date: 2010-11-17 08:26:24 +1100 (Wed, 17 Nov 2010) $
  * @since 2.2.0
  */
 public class TilesVelocityException extends TilesException {

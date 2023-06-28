@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: NoSuchContainerExceptionTest.java 927573 2010-03-25 20:01:07Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.junit.Test;
 /**
  * Tests {@link NoSuchContainerException}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 927573 $ $Date: 2010-03-26 07:01:07 +1100 (Fri, 26 Mar 2010) $
  */
 public class NoSuchContainerExceptionTest {
 

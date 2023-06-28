@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: BasicPatternDefinitionResolver.java 836180 2009-11-14 14:00:02Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -36,7 +36,7 @@ import org.apache.tiles.Definition;
  * use of a {@link PatternRecognizer}.
  *
  * @param <T> The type of the customization key.
- * @version $Rev$ $Date$
+ * @version $Rev: 836180 $ $Date: 2009-11-15 01:00:02 +1100 (Sun, 15 Nov 2009) $
  * @since 2.2.0
  */
 public class BasicPatternDefinitionResolver<T> extends

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesException.java 832867 2009-11-04 20:16:23Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,7 +24,7 @@ package org.apache.tiles;
 /**
  * Root class for all Tiles-exceptions.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 832867 $ $Date: 2009-11-05 07:16:23 +1100 (Thu, 05 Nov 2009) $
  */
 public class TilesException extends RuntimeException {
 
@@ -45,8 +45,8 @@ public class TilesException extends RuntimeException {
 
 
     /**
-     * Create a new <code>TilesException</code> wrapping an existing exception.
-     * <p/>
+     * <p>Create a new <code>TilesException</code> wrapping an existing exception.
+     * </p>
      * <p>The existing exception will be embedded in the new
      * one, and its message will become the default message for
      * the TilesException.</p>
@@ -59,8 +59,8 @@ public class TilesException extends RuntimeException {
 
 
     /**
-     * Create a new <code>TilesException</code> from an existing exception.
-     * <p/>
+     * <p>Create a new <code>TilesException</code> from an existing exception.
+     * </p>
      * <p>The existing exception will be embedded in the new
      * one, but the new exception will have its own message.</p>
      *

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DefinitionsReader.java 829574 2009-10-25 14:15:31Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,7 +27,7 @@ import org.apache.tiles.Definition;
 
 /**
  * Interface for reading <code>{@link Definition}</code> from a source.
- * <p/>
+ * <p></p>
  * <p>This interface provides a standard way to read
  * <code>{@link Definition}</code> objects from a source.  Implementations
  * should define what the source is, whether it be a persistent store such as a
@@ -36,13 +36,13 @@ import org.apache.tiles.Definition;
  * not perform any internationalization duties or inheritance of Definitions.
  * It only reads from the source and returns a Map of objects read.</p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 829574 $ $Date: 2009-10-26 01:15:31 +1100 (Mon, 26 Oct 2009) $
  */
 public interface DefinitionsReader {
 
     /**
      * Reads <code>{@link Definition}</code> objects from a source.
-     * <p/>
+     * <p></p>
      * Implementations should publish what type of source object is expected.
      *
      * @param source The source from which definitions will be read.

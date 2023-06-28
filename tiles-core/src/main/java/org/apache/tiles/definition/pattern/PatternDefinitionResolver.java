@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PatternDefinitionResolver.java 1539385 2013-11-06 16:24:13Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -29,7 +29,7 @@ import org.apache.tiles.Definition;
  * Resolves a definition starting from patterns stored in definition maps.
  *
  * @param <T> The type of the customization key.
- * @version $Rev$ $Date$
+ * @version $Rev: 1539385 $ $Date: 2013-11-07 03:24:13 +1100 (Thu, 07 Nov 2013) $
  * @since 2.2.0
  */
 public interface PatternDefinitionResolver<T> {

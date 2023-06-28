@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesDecorationFilterTest.java 1229087 2012-01-09 10:35:14Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,12 +27,12 @@ import java.io.IOException;
 import java.util.Enumeration;
 import java.util.Map;
 
-import javax.servlet.FilterChain;
-import javax.servlet.FilterConfig;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.FilterChain;
+import jakarta.servlet.FilterConfig;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.apache.tiles.request.ApplicationAccess;
 import org.apache.tiles.AttributeContext;
@@ -46,7 +46,7 @@ import org.junit.Test;
 /**
  * Tests {@link TilesDecorationFilter}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1229087 $ $Date: 2012-01-09 21:35:14 +1100 (Mon, 09 Jan 2012) $
  */
 public class TilesDecorationFilterTest {
 
@@ -144,7 +144,7 @@ public class TilesDecorationFilterTest {
 
         @Override
         public void mutate(AttributeContext context,
-                javax.servlet.ServletRequest request) {
+                jakarta.servlet.ServletRequest request) {
             // Does nothing.
         }
     }

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 /*
- * $Id$
+ * $Id: pom.xml 1810193 2017-09-30 11:03:37Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,24 +27,34 @@
         <artifactId>tiles-master</artifactId>
         <groupId>org.apache.tiles</groupId>
         <version>6</version>
-        <relativePath />
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.apache.tiles</groupId>
     <artifactId>tiles-parent</artifactId>
-    <version>3.0.8</version>
+    <version>3.0.8-nubitic-jakarta-api</version>
     <packaging>pom</packaging>
     <name>Tiles 3</name>
     <description>Tiles 3: A framework for page composition.</description>
     <url>http://tiles.apache.org/framework/</url>
     <scm>
-        <connection>scm:svn:http://svn.apache.org/repos/asf/tiles/framework/tags/tiles-parent-3.0.8</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/tiles/framework/tags/tiles-parent-3.0.8</developerConnection>
-        <url>http://svn.apache.org/viewvc/tiles/framework/tags/tiles-parent-3.0.8</url>
+        <connection>scm:git:https://github.com/nubitic/tiles.git</connection>
+        <developerConnection>scm:git:https://github.com/nubitic/tiles.git</developerConnection>
+        <url>https://github.com/nubitic/tiles.git</url>
     </scm>
-
     <ciManagement />
+
+	<repositories>
+		<repository>
+			<id>nexus-repo.nubitic.mx</id>
+			<url>https://nexus-repo.nubitic.mx/repository/releases/</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>nexus-repo.nubitic.mx</id>
+			<url>https://nexus-repo.nubitic.mx/repository/releases/</url>
+		</pluginRepository>
+	</pluginRepositories>
 
     <modules>
         <module>tiles-api</module>
@@ -62,18 +72,12 @@
         <module>assembly</module>
         <module>tiles-test-pom</module>
     </modules>
-
-    <issueManagement>
-        <system>JIRA</system>
-        <url>https://issues.apache.org/jira/browse/TILES</url>
-    </issueManagement>
-
-    <distributionManagement>
-        <site>
-            <id>apache-site</id>
-            <url>scm:svn:https://svn.apache.org/repos/asf/tiles/site/staging/framework</url>
-        </site>
-    </distributionManagement>
+	<distributionManagement>
+		<repository>
+			<id>nexus-repo.nubitic.mx</id>
+			<url>https://nexus-repo.nubitic.mx/repository/releases/</url>
+		</repository>
+	</distributionManagement>
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -96,54 +100,106 @@
                 <artifactId>tiles-template</artifactId>
                 <version>${project.version}</version>
             </dependency>
+			<dependency>
+			    <groupId>org.apache.velocity.tools</groupId>
+			    <artifactId>velocity-tools-view</artifactId>
+			    <version>3.1-nubitic-jakarta-api</version>
+				<exclusions>
+					<exclusion>
+						<artifactId>struts-taglib</artifactId>
+						<groupId>org.apache.struts</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>struts-tiles</artifactId>
+						<groupId>org.apache.struts</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>struts-core</artifactId>
+						<groupId>org.apache.struts</groupId>
+					</exclusion>
+					<exclusion>
+						<groupId>commons-logging</groupId>
+						<artifactId>commons-logging</artifactId>
+					</exclusion>
+					<exclusion>
+						<artifactId>sslext</artifactId>
+						<groupId>sslext</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>commons-chain</artifactId>
+						<groupId>commons-chain</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>commons-validator</artifactId>
+						<groupId>commons-validator</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>commons-digester</artifactId>
+						<groupId>commons-digester</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>commons-beanutils</artifactId>
+						<groupId>commons-beanutils</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>dom4j</artifactId>
+						<groupId>dom4j</groupId>
+					</exclusion>
+				</exclusions>
+			</dependency>
 
-            <dependency>
-                <groupId>org.apache.velocity</groupId>
-                <artifactId>velocity-tools</artifactId>
-                <version>2.0</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>struts-taglib</artifactId>
-                        <groupId>org.apache.struts</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>struts-tiles</artifactId>
-                        <groupId>org.apache.struts</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>struts-core</artifactId>
-                        <groupId>org.apache.struts</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>sslext</artifactId>
-                        <groupId>sslext</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-chain</artifactId>
-                        <groupId>commons-chain</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-validator</artifactId>
-                        <groupId>commons-validator</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-digester</artifactId>
-                        <groupId>commons-digester</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-beanutils</artifactId>
-                        <groupId>commons-beanutils</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>dom4j</artifactId>
-                        <groupId>dom4j</groupId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
+			<dependency>
+			    <groupId>org.apache.velocity.tools</groupId>
+			    <artifactId>velocity-tools-generic</artifactId>
+			    <version>3.1-nubitic-jakarta-api</version>
+				<exclusions>
+					<exclusion>
+						<artifactId>struts-taglib</artifactId>
+						<groupId>org.apache.struts</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>struts-tiles</artifactId>
+						<groupId>org.apache.struts</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>struts-core</artifactId>
+						<groupId>org.apache.struts</groupId>
+					</exclusion>
+					<exclusion>
+						<groupId>commons-logging</groupId>
+						<artifactId>commons-logging</artifactId>
+					</exclusion>
+					<exclusion>
+						<artifactId>sslext</artifactId>
+						<groupId>sslext</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>commons-chain</artifactId>
+						<groupId>commons-chain</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>commons-validator</artifactId>
+						<groupId>commons-validator</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>commons-digester</artifactId>
+						<groupId>commons-digester</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>commons-beanutils</artifactId>
+						<groupId>commons-beanutils</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>dom4j</artifactId>
+						<groupId>dom4j</groupId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>org.freemarker</groupId>
+				<artifactId>freemarker</artifactId>
+				<version>2.3.32-nubitic-jakarta-api</version>
+			</dependency>
 
             <dependency>
                 <groupId>commons-digester</groupId>
@@ -155,11 +211,6 @@
                         <artifactId>commons-logging</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.freemarker</groupId>
-                <artifactId>freemarker</artifactId>
-                <version>2.3.15</version>
             </dependency>
 
             <dependency>
@@ -173,23 +224,23 @@
                 <version>2.0.11</version>
             </dependency>
             <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>servlet-api</artifactId>
-                <version>2.5</version>
+			    <groupId>jakarta.servlet</groupId>
+			    <artifactId>jakarta.servlet-api</artifactId>
+			    <version>6.0.0</version>
                 <scope>provided</scope>
             </dependency>
-            <dependency>
-                <groupId>javax.servlet.jsp</groupId>
-                <artifactId>jsp-api</artifactId>
-                <version>2.1</version>
-                <scope>provided</scope>
-            </dependency>
-            <dependency>
-                <groupId>javax.el</groupId>
-                <artifactId>el-api</artifactId>
-                <version>1.0</version>
-                <scope>provided</scope>
-            </dependency>
+			<dependency>
+				<groupId>jakarta.servlet.jsp</groupId>
+				<artifactId>jakarta.servlet.jsp-api</artifactId>
+				<version>3.0.0</version>
+				<scope>provided</scope>
+			</dependency>
+		    <dependency>
+		      <groupId>jakarta.el</groupId>
+		      <artifactId>jakarta.el-api</artifactId>
+			  <version>4.0.0</version>		      
+		      <scope>provided</scope>
+		    </dependency>
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
@@ -295,9 +346,35 @@
               <artifactId>maven-scm-publish-plugin</artifactId>
               <extensions>true</extensions>
                 <configuration>
-                    <pubScmUrl>scm:svn:https://svn.apache.org/repos/asf/tiles/site/staging/framework</pubScmUrl>
+                    <pubScmUrl>scm:git:https://github.com/nubitic/tiles.git</pubScmUrl>
                 </configuration>
             </plugin>
+	        <plugin>
+	          <groupId>org.apache.maven.plugins</groupId>
+	          <artifactId>maven-compiler-plugin</artifactId>
+	          <configuration>
+	            <source>1.7</source>
+	            <target>1.7</target>
+	          </configuration>
+	        </plugin>
+	        <plugin>
+	          <groupId>org.apache.maven.plugins</groupId>
+	          <artifactId>maven-enforcer-plugin</artifactId>
+	          <version>1.2</version>
+	          <executions>
+	            <execution>
+	              <id>enforce-java</id>
+	              <goals><goal>enforce</goal></goals>
+	              <configuration>
+	                <rules>
+	                  <requireJavaVersion>
+	                    <version>[1.7.0-45,17.0.8)</version>
+	                  </requireJavaVersion>
+	                </rules>
+	              </configuration>
+	            </execution>
+	          </executions>
+	        </plugin>
         </plugins>
 
         <defaultGoal>install</defaultGoal>
@@ -311,8 +388,8 @@
         <tiles.osgi.private />
         <tiles.manifestfile>target/osgi/MANIFEST.MF</tiles.manifestfile>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <tiles.request.version>1.0.7</tiles.request.version>
-        <tiles.autotag.version>1.2</tiles.autotag.version>
+        <tiles.request.version>1.0.7-nubitic-jakarta-api</tiles.request.version>
+        <tiles.autotag.version>1.2-nubitic-jakarta-api</tiles.autotag.version>
     </properties>
 
     <dependencies>
@@ -364,6 +441,19 @@
                             </execution>
                         </executions>
                     </plugin>
+		          <plugin>
+		            <groupId>org.apache.maven.plugins</groupId>
+		            <artifactId>maven-javadoc-plugin</artifactId>
+		            <version>3.5.0</version>
+		            <executions>
+		              <execution>
+		                <id>attach-javadocs</id>
+		                <goals>
+		                  <goal>jar</goal>
+		                </goals>
+		              </execution>
+		            </executions>
+		          </plugin>
                 </plugins>
             </build>
         </profile>

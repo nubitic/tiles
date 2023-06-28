@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AttributeEvaluatorFactory.java 788032 2009-06-24 14:08:32Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,7 +26,7 @@ import org.apache.tiles.Attribute;
 /**
  * Creates an attribute evaluator using the language or an attribute.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 788032 $ $Date: 2009-06-25 00:08:32 +1000 (Thu, 25 Jun 2009) $
  * @since 2.2.0
  */
 public interface AttributeEvaluatorFactory {

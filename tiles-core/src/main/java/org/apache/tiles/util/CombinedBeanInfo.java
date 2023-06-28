@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CombinedBeanInfo.java 995228 2010-09-08 19:50:09Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -34,7 +34,7 @@ import org.apache.tiles.request.reflect.ClassUtil;
 /**
  * Contains the bean infos about one or more classes.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 995228 $ $Date: 2010-09-09 05:50:09 +1000 (Thu, 09 Sep 2010) $
  * @since 2.2.0
  */
 public class CombinedBeanInfo {

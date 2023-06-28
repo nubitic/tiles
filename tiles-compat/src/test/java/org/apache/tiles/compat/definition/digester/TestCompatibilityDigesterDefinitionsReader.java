@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TestCompatibilityDigesterDefinitionsReader.java 829574 2009-10-25 14:15:31Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -40,7 +40,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Tests the <code>org.apache.tiles.definition.digester.DigesterDefinitionsReader</code> class.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 829574 $ $Date: 2009-10-26 01:15:31 +1100 (Mon, 26 Oct 2009) $
  */
 public class TestCompatibilityDigesterDefinitionsReader extends TestCase {
 

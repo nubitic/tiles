@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesSharedVariableFactory.java 1049683 2010-12-15 19:55:45Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -30,7 +30,7 @@ import freemarker.template.TemplateModel;
 /**
  * Creates a shared variable that contains the Tiles Freemarker model repository.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1049683 $ $Date: 2010-12-16 06:55:45 +1100 (Thu, 16 Dec 2010) $
  */
 public class TilesSharedVariableFactory implements SharedVariableFactory {
 

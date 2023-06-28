@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: UseAttributeTag.java 1360373 2012-07-11 19:52:00Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,11 +23,11 @@ package org.apache.tiles.jsp.taglib;
 
 import java.io.IOException;
 
-import javax.servlet.jsp.JspException;
-import javax.servlet.jsp.tagext.SimpleTagSupport;
-import javax.servlet.jsp.tagext.TagData;
-import javax.servlet.jsp.tagext.TagExtraInfo;
-import javax.servlet.jsp.tagext.VariableInfo;
+import jakarta.servlet.jsp.JspException;
+import jakarta.servlet.jsp.tagext.SimpleTagSupport;
+import jakarta.servlet.jsp.tagext.TagData;
+import jakarta.servlet.jsp.tagext.TagExtraInfo;
+import jakarta.servlet.jsp.tagext.VariableInfo;
 
 import org.apache.tiles.autotag.core.runtime.AutotagRuntime;
 import org.apache.tiles.request.Request;
@@ -37,7 +37,7 @@ import org.apache.tiles.template.ImportAttributeModel;
  * Exposes am attribute as a scripting variable within the page.
  *
  * @since Tiles 1.0
- * @version $Rev$ $Date$
+ * @version $Rev: 1360373 $ $Date: 2012-07-12 05:52:00 +1000 (Thu, 12 Jul 2012) $
  */
 public class UseAttributeTag extends SimpleTagSupport {
 

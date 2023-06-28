@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: LocaleDefinitionsFactory.java 836180 2009-11-14 14:00:02Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -29,14 +29,14 @@ import org.apache.tiles.request.Request;
 /**
  * {@link DefinitionsFactory DefinitionsFactory} implementation that manages
  * Definitions configuration data from URLs, but resolving definition
- * inheritance when a definition is returned.. <p/>
+ * inheritance when a definition is returned.. <p></p>
  * <p>
  * The Definition objects are read from the
  * {@link org.apache.tiles.definition.digester.DigesterDefinitionsReader DigesterDefinitionsReader}
  * class unless another implementation is specified.
  * </p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 836180 $ $Date: 2009-11-15 01:00:02 +1100 (Sun, 15 Nov 2009) $
  * @since 2.1.0
  */
 public class LocaleDefinitionsFactory extends

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesContainerWrapper.java 1044659 2010-12-11 14:16:04Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.apache.tiles.request.Request;
 /**
  * Wraps a Tiles container to allow easy decoration.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1044659 $ $Date: 2010-12-12 01:16:04 +1100 (Sun, 12 Dec 2010) $
  */
 public class TilesContainerWrapper implements TilesContainer {
 

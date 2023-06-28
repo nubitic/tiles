@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CompleteAutoloadTilesContainerFactoryTest.java 1332136 2012-04-30 09:34:09Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -33,10 +33,10 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
-import javax.el.ExpressionFactory;
-import javax.servlet.ServletContext;
-import javax.servlet.jsp.JspApplicationContext;
-import javax.servlet.jsp.JspFactory;
+import jakarta.el.ExpressionFactory;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.jsp.JspApplicationContext;
+import jakarta.servlet.jsp.JspFactory;
 
 import org.apache.tiles.Attribute;
 import org.apache.tiles.Definition;
@@ -67,7 +67,7 @@ import org.junit.Test;
 /**
  * Tests {@link CompleteAutoloadTilesContainerFactory}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1332136 $ $Date: 2012-04-30 19:34:09 +1000 (Mon, 30 Apr 2012) $
  */
 public class CompleteAutoloadTilesContainerFactoryTest {
 
@@ -134,7 +134,6 @@ public class CompleteAutoloadTilesContainerFactoryTest {
                 getClass().getResourceAsStream("/VM_global_library.vm"));
         expect(servletContext.getResourceAsStream("/WEB-INF/tools.xml")).andReturn(
                 getClass().getResourceAsStream("/tools.xml"));
-        expect(servletContext.getResourceAsStream(VelocityView.DEPRECATED_USER_TOOLS_PATH)).andReturn(null);
         servletContext.log((String) anyObject());
         expectLastCall().anyTimes();
         expect(servletContext.getRealPath("/")).andReturn(null);

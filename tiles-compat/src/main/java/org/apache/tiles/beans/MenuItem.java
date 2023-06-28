@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: MenuItem.java 527870 2007-04-12 10:19:41Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,7 +26,7 @@ import java.io.Serializable;
  * Interface for MenuItems.
  *
  * @see SimpleMenuItem
- * @version $Rev$ $Date$
+ * @version $Rev: 527870 $ $Date: 2007-04-12 20:19:41 +1000 (Thu, 12 Apr 2007) $
  */
 public interface MenuItem extends Serializable {
 

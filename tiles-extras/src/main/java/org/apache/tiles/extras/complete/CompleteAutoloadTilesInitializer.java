@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CompleteAutoloadTilesInitializer.java 892369 2009-12-18 20:21:36Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -21,7 +21,7 @@
 
 package org.apache.tiles.extras.complete;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.factory.AbstractTilesContainerFactory;
 import org.apache.tiles.request.ApplicationContext;
@@ -34,7 +34,7 @@ import org.apache.tiles.startup.AbstractTilesInitializer;
  * {@link CompleteAutoloadTilesContainerFactory} to load all new features of
  * Tiles at once.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 892369 $ $Date: 2009-12-19 07:21:36 +1100 (Sat, 19 Dec 2009) $
  * @since 2.2.0
  */
 public class CompleteAutoloadTilesInitializer extends AbstractTilesInitializer {

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: FactoryNotFoundExceptitonTest.java 942880 2010-05-10 19:58:07Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.junit.Test;
 /**
  * Tests {@link FactoryNotFoundException}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 942880 $ $Date: 2010-05-11 05:58:07 +1000 (Tue, 11 May 2010) $
  */
 public class FactoryNotFoundExceptitonTest {
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PrefixedPatternDefinitionResolver.java 942880 2010-05-10 19:58:07Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -40,7 +40,7 @@ import org.slf4j.LoggerFactory;
  * method before using this resolver.
  *
  * @param <T> The type of the customization key.
- * @version $Rev$ $Date$
+ * @version $Rev: 942880 $ $Date: 2010-05-11 05:58:07 +1000 (Tue, 11 May 2010) $
  * @since 2.2.0
  */
 public class PrefixedPatternDefinitionResolver<T> extends

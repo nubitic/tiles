@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractTilesInitializerServletTest.java 1058093 2011-01-12 11:49:02Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,9 +24,9 @@ import static org.easymock.classextension.EasyMock.*;
 
 import java.util.Enumeration;
 
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
 
 import org.apache.tiles.request.servlet.ServletApplicationContext;
 import org.apache.tiles.startup.TilesInitializer;
@@ -35,7 +35,7 @@ import org.junit.Test;
 /**
  * Tests {@link AbstractTilesInitializerServlet}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1058093 $ $Date: 2011-01-12 22:49:02 +1100 (Wed, 12 Jan 2011) $
  */
 public class AbstractTilesInitializerServletTest {
 

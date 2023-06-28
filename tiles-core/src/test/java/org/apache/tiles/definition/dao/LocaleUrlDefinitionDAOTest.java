@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: LocaleUrlDefinitionDAOTest.java 1297705 2012-03-06 20:44:30Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -43,7 +43,7 @@ import org.apache.tiles.request.locale.URLApplicationResource;
 /**
  * Tests {@link LocaleUrlDefinitionDAO}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1297705 $ $Date: 2012-03-07 07:44:30 +1100 (Wed, 07 Mar 2012) $
  */
 public class LocaleUrlDefinitionDAOTest extends TestCase {
 

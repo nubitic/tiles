@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CachingLocaleUrlDefinitionDAO.java 1752405 2016-07-13 12:13:34Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -43,7 +43,7 @@ import org.apache.tiles.request.locale.LocaleUtil;
  * It can check if the URLs change, but by default this feature is turned off.
  * </p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1752405 $ $Date: 2016-07-13 22:13:34 +1000 (Wed, 13 Jul 2016) $
  * @since 2.1.0
  */
 public class CachingLocaleUrlDefinitionDAO extends BaseLocaleUrlDefinitionDAO

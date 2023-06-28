@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ScopeELResolver.java 1049676 2010-12-15 19:38:54Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,15 +27,15 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import javax.el.ELContext;
-import javax.el.ELResolver;
+import jakarta.el.ELContext;
+import jakarta.el.ELResolver;
 
 import org.apache.tiles.request.Request;
 
 /**
  * Resolves beans in request, session and application scope.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1049676 $ $Date: 2010-12-16 06:38:54 +1100 (Thu, 16 Dec 2010) $
  * @since 2.2.1
  */
 public class ScopeELResolver extends ELResolver {

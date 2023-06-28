@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ExpressionFactoryFactory.java 816924 2009-09-19 13:45:40Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -21,12 +21,12 @@
 
 package org.apache.tiles.el;
 
-import javax.el.ExpressionFactory;
+import jakarta.el.ExpressionFactory;
 
 /**
  * Interface to define a factory of {@link ExpressionFactory}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 816924 $ $Date: 2009-09-19 23:45:40 +1000 (Sat, 19 Sep 2009) $
  * @since 2.2.1
  */
 public interface ExpressionFactoryFactory {

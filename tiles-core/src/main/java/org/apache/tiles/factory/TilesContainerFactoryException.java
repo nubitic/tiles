@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesContainerFactoryException.java 943645 2010-05-12 19:33:19Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,9 +23,9 @@ package org.apache.tiles.factory;
 import org.apache.tiles.TilesException;
 
 /**
- * Indicates that something went wrong in {@link TilesContainerFactory} use.
+ * Indicates that something went wrong in {@link AbstractTilesContainerFactory} use.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 943645 $ $Date: 2010-05-13 05:33:19 +1000 (Thu, 13 May 2010) $
  * @since 2.1.0
  */
 public class TilesContainerFactoryException extends TilesException {

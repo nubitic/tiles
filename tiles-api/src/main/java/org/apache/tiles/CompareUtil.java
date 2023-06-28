@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CompareUtil.java 787720 2009-06-23 15:39:21Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,7 +24,7 @@ package org.apache.tiles;
 /**
  * Utilities to work with comparation between objects.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 787720 $ $Date: 2009-06-24 01:39:21 +1000 (Wed, 24 Jun 2009) $
  * @since 2.2.0
  */
 public final class CompareUtil {

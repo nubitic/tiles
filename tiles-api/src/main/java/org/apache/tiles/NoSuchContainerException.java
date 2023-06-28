@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: NoSuchContainerException.java 927573 2010-03-25 20:01:07Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,7 +24,7 @@ package org.apache.tiles;
 /**
  * Indicates that a keyed container has not been found.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 927573 $ $Date: 2010-03-26 07:01:07 +1100 (Fri, 26 Mar 2010) $
  * @since 2.1.0
  */
 public class NoSuchContainerException extends TilesException {

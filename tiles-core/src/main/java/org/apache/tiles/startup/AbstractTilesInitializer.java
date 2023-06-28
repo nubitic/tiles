@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractTilesInitializer.java 1332134 2012-04-30 09:23:19Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -32,7 +32,7 @@ import org.apache.tiles.request.ApplicationContext;
  * environment. It uses init parameters to create the
  * {@link ApplicationContext} and the {@link TilesContainer}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1332134 $ $Date: 2012-04-30 19:23:19 +1000 (Mon, 30 Apr 2012) $
  * @since 2.2.0
  */
 public abstract class AbstractTilesInitializer implements TilesInitializer {
@@ -75,7 +75,7 @@ public abstract class AbstractTilesInitializer implements TilesInitializer {
      * Creates the Tiles application context, to be used across all the
      * Tiles-based application. If you override this class, please override this
      * method or
-     * {@link #createAndInitializeTilesApplicationContextFactory(ApplicationContext)}
+     * {@link #createContainerFactory(ApplicationContext)}
      * .<br>
      * This implementation returns the preliminary context passed as a parameter
      *

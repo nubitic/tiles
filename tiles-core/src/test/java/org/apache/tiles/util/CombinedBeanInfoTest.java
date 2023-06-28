@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CombinedBeanInfoTest.java 1332830 2012-05-01 21:09:05Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -38,7 +38,7 @@ import org.junit.Test;
 /**
  * Tests {@link CombinedBeanInfo}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1332830 $ $Date: 2012-05-02 07:09:05 +1000 (Wed, 02 May 2012) $
  */
 public class CombinedBeanInfoTest {
 

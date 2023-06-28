@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: BasicPreparerFactory.java 1310865 2012-04-07 21:01:22Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -35,7 +35,7 @@ import org.slf4j.LoggerFactory;
  * simply instantiates the named preparerInstance and returns it.
  *
  * @since Tiles 2.0
- * @version $Rev$ $Date$
+ * @version $Rev: 1310865 $ $Date: 2012-04-08 07:01:22 +1000 (Sun, 08 Apr 2012) $
  */
 public class BasicPreparerFactory implements PreparerFactory {
 

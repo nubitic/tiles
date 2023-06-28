@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ELAttributeEvaluator.java 891884 2009-12-17 20:43:12Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -20,9 +20,9 @@
  */
 package org.apache.tiles.el;
 
-import javax.el.ELResolver;
-import javax.el.ExpressionFactory;
-import javax.el.ValueExpression;
+import jakarta.el.ELResolver;
+import jakarta.el.ExpressionFactory;
+import jakarta.el.ValueExpression;
 
 import org.apache.tiles.evaluator.AbstractAttributeEvaluator;
 import org.apache.tiles.request.ApplicationContext;
@@ -34,7 +34,7 @@ import org.apache.tiles.request.Request;
  * {@link Request}, {@link ApplicationContext} and beans
  * contained in request, session and application scope.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 891884 $ $Date: 2009-12-18 07:43:12 +1100 (Fri, 18 Dec 2009) $
  * @since 2.2.1
  */
 public class ELAttributeEvaluator extends AbstractAttributeEvaluator {

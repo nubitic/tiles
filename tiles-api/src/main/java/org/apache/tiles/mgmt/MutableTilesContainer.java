@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: MutableTilesContainer.java 836263 2009-11-14 20:58:46Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.apache.tiles.request.Request;
  * Defines a mutable version of the TilesContainer.
  *
  * @since Tiles 2.0
- * @version $Rev$ $Date$
+ * @version $Rev: 836263 $ $Date: 2009-11-15 07:58:46 +1100 (Sun, 15 Nov 2009) $
  */
 public interface MutableTilesContainer extends TilesContainer {
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ReadOnlyVariableResolverFactory.java 1049688 2010-12-15 20:15:41Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -30,7 +30,7 @@ import org.mvel2.integration.impl.BaseVariableResolverFactory;
 /**
  * A base variable resolver factory that is read-only.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1049688 $ $Date: 2010-12-16 07:15:41 +1100 (Thu, 16 Dec 2010) $
  */
 public abstract class ReadOnlyVariableResolverFactory extends
         BaseVariableResolverFactory {
@@ -104,7 +104,7 @@ public abstract class ReadOnlyVariableResolverFactory extends
     /**
      * Base variable resolver.
      *
-     * @version $Rev$ $Date$
+     * @version $Rev: 1049688 $ $Date: 2010-12-16 07:15:41 +1100 (Thu, 16 Dec 2010) $
      * @since 3.0.0
      */
     public abstract static class ReadOnlyVariableResolver implements VariableResolver {

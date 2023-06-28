@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ServletContextAdapterTest.java 1058097 2011-01-12 11:57:29Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -20,31 +20,36 @@
  */
 package org.apache.tiles.web.util;
 
-import static org.easymock.EasyMock.*;
-import static org.easymock.classextension.EasyMock.*;
-import static org.junit.Assert.*;
+import static org.easymock.EasyMock.createMock;
+import static org.easymock.EasyMock.expect;
+import static org.easymock.EasyMock.replay;
+import static org.easymock.EasyMock.verify;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Enumeration;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
-
-import javax.servlet.RequestDispatcher;
-import javax.servlet.Servlet;
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.Servlet;
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.ServletRegistration;
+
 /**
  * Tests {@link ServletContextAdapter}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1058097 $ $Date: 2011-01-12 22:57:29 +1100 (Wed, 12 Jan 2011) $
  */
 public class ServletContextAdapterTest {
 
@@ -164,7 +169,7 @@ public class ServletContextAdapterTest {
     @SuppressWarnings("unchecked")
     @Test
     public void testGetResourcePaths() {
-        Set<URL> urls = createMock(Set.class);
+        Set<String> urls = createMock(Set.class);
 
         expect(servletContext.getResourcePaths("whatever")).andReturn(urls);
 
@@ -241,13 +246,13 @@ public class ServletContextAdapterTest {
     @SuppressWarnings("deprecation")
     @Test
     public void testGetServlet() throws ServletException {
-        Servlet is = createMock(Servlet.class);
+    	ServletRegistration is = createMock(ServletRegistration.class);
 
-        expect(servletContext.getServlet("whatever")).andReturn(is);
+        expect(servletContext.getServletRegistration("whatever")).andReturn(is);
 
         replay(servletContext, config, is);
         ServletContextAdapter adapter = new ServletContextAdapter(config);
-        assertEquals(is, adapter.getServlet("whatever"));
+        assertEquals(is, adapter.getServletRegistration("whatever"));
         verify(is);
     }
 
@@ -257,29 +262,13 @@ public class ServletContextAdapterTest {
     @SuppressWarnings({ "deprecation", "unchecked" })
     @Test
     public void testGetServlets() {
-        Enumeration<Servlet> is = createMock(Enumeration.class);
+    	Map is = createMock(Map.class);
 
-        expect(servletContext.getServlets()).andReturn(is);
-
-        replay(servletContext, config, is);
-        ServletContextAdapter adapter = new ServletContextAdapter(config);
-        assertEquals(is, adapter.getServlets());
-        verify(is);
-    }
-
-    /**
-     * Test method for {@link org.apache.tiles.web.util.ServletContextAdapter#getServletNames()}.
-     */
-    @SuppressWarnings({ "deprecation", "unchecked" })
-    @Test
-    public void testGetServletNames() {
-        Enumeration<String> is = createMock(Enumeration.class);
-
-        expect(servletContext.getServletNames()).andReturn(is);
+        expect(servletContext.getServletRegistrations()).andReturn(is);
 
         replay(servletContext, config, is);
         ServletContextAdapter adapter = new ServletContextAdapter(config);
-        assertEquals(is, adapter.getServletNames());
+        assertEquals(is, adapter.getServletRegistrations());
         verify(is);
     }
 
@@ -293,20 +282,6 @@ public class ServletContextAdapterTest {
         replay(servletContext, config);
         ServletContextAdapter adapter = new ServletContextAdapter(config);
         adapter.log("whatever");
-    }
-
-    /**
-     * Test method for {@link ServletContextAdapter#log(java.lang.Exception, java.lang.String)}.
-     */
-    @SuppressWarnings("deprecation")
-    @Test
-    public void testLogExceptionString() {
-        Exception e = new Exception("It does not matter");
-        servletContext.log(e, "whatever");
-
-        replay(servletContext, config);
-        ServletContextAdapter adapter = new ServletContextAdapter(config);
-        adapter.log(e, "whatever");
     }
 
     /**

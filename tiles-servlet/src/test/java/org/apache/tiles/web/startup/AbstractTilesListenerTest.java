@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractTilesListenerTest.java 1058097 2011-01-12 11:57:29Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,8 +23,8 @@ package org.apache.tiles.web.startup;
 import static org.easymock.EasyMock.*;
 import static org.easymock.classextension.EasyMock.*;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletContextEvent;
 
 import org.apache.tiles.request.servlet.ServletApplicationContext;
 import org.apache.tiles.startup.TilesInitializer;
@@ -33,7 +33,7 @@ import org.junit.Test;
 /**
  * Tests {@link AbstractTilesListener}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1058097 $ $Date: 2011-01-12 22:57:29 +1100 (Wed, 12 Jan 2011) $
  */
 public class AbstractTilesListenerTest {
 

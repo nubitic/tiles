@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CompatibilityPreparerFactoryTest.java 949253 2010-05-28 18:29:59Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -30,7 +30,7 @@ import org.apache.tiles.request.Request;
 /**
  * Tests {@link CompatibilityPreparerFactory}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 949253 $ $Date: 2010-05-29 04:29:59 +1000 (Sat, 29 May 2010) $
  */
 public class CompatibilityPreparerFactoryTest extends TestCase {
 

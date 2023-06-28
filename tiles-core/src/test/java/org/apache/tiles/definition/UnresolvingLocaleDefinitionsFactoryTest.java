@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: UnresolvingLocaleDefinitionsFactoryTest.java 891884 2009-12-17 20:43:12Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -36,7 +36,7 @@ import org.junit.Test;
 /**
  * Tests {@link UnresolvingLocaleDefinitionsFactory}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 891884 $ $Date: 2009-12-18 07:43:12 +1100 (Fri, 18 Dec 2009) $
  */
 public class UnresolvingLocaleDefinitionsFactoryTest {
 

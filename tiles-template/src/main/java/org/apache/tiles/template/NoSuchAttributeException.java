@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: NoSuchAttributeException.java 755432 2009-03-17 22:39:01Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -25,7 +25,7 @@ import org.apache.tiles.TilesException;
 /**
  * Indicates that a named attribute has not been found.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 755432 $ $Date: 2009-03-18 09:39:01 +1100 (Wed, 18 Mar 2009) $
  * @since 2.2.0
  */
 public class NoSuchAttributeException extends TilesException {

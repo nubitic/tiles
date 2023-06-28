@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ModularTilesInitializer.java 1297705 2012-03-06 20:44:30Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -29,7 +29,7 @@ import java.util.List;
 import java.util.jar.Attributes;
 import java.util.jar.Manifest;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.definition.DefinitionsFactoryException;
 import org.apache.tiles.request.ApplicationContext;
@@ -45,7 +45,7 @@ import org.apache.tiles.startup.TilesInitializer;
  * After that, initializes all found initializers, one by one. When the
  * {@link #destroy()} method is called, all the initializers are then destroyed.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1297705 $ $Date: 2012-03-07 07:44:30 +1100 (Wed, 07 Mar 2012) $
  * @since 2.2.1
  */
 public class ModularTilesInitializer implements TilesInitializer {

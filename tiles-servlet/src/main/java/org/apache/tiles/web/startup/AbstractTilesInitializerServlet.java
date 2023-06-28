@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractTilesInitializerServlet.java 1310865 2012-04-07 21:01:22Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -20,8 +20,8 @@
  */
 package org.apache.tiles.web.startup;
 
-import javax.servlet.ServletContext;
-import javax.servlet.http.HttpServlet;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.http.HttpServlet;
 
 import org.apache.tiles.request.servlet.ServletApplicationContext;
 import org.apache.tiles.startup.TilesInitializer;
@@ -32,8 +32,7 @@ import org.apache.tiles.web.util.ServletContextAdapter;
  * {@link #createTilesInitializer()} to initialize Tiles.
  *
  * @deprecated use {@link AbstractTilesListener} instead.
- * @see org.apache.tiles.web.startup.TilesListener
- * @version $Rev$ $Date$
+ * @version $Rev: 1310865 $ $Date: 2012-04-08 07:01:22 +1000 (Sun, 08 Apr 2012) $
  * @since 2.2.0
  */
 @Deprecated

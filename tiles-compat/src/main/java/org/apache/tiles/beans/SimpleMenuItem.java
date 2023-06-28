@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: SimpleMenuItem.java 836180 2009-11-14 14:00:02Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,7 +26,7 @@ import java.io.Serializable;
  * A MenuItem implementation.
  * Used to read menu items in definitions.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 836180 $ $Date: 2009-11-15 01:00:02 +1100 (Sun, 15 Nov 2009) $
  */
 public class SimpleMenuItem implements MenuItem, Serializable {
 

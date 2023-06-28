@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DirectAttributeEvaluator.java 833737 2009-11-07 19:17:09Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,7 +27,7 @@ import org.apache.tiles.request.Request;
  * Resolves a string and returns the string itself. It is useful for backward
  * compatibility.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 833737 $ $Date: 2009-11-08 06:17:09 +1100 (Sun, 08 Nov 2009) $
  * @since 2.1.0
  */
 public class DirectAttributeEvaluator extends AbstractAttributeEvaluator {

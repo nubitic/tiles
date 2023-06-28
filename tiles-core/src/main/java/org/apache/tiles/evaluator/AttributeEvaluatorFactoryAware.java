@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AttributeEvaluatorFactoryAware.java 788032 2009-06-24 14:08:32Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,7 +24,7 @@ package org.apache.tiles.evaluator;
 /**
  * It represents an object that can use an {@link AttributeEvaluatorFactory}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 788032 $ $Date: 2009-06-25 00:08:32 +1000 (Thu, 25 Jun 2009) $
  * @since 2.2.0
  */
 public interface AttributeEvaluatorFactoryAware {

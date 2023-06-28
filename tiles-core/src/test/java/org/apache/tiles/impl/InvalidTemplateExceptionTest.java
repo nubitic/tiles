@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: InvalidTemplateExceptionTest.java 943985 2010-05-13 19:30:49Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.junit.Test;
 /**
  * Tests {@link InvalidTemplateException}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 943985 $ $Date: 2010-05-14 05:30:49 +1000 (Fri, 14 May 2010) $
  */
 public class InvalidTemplateExceptionTest {
 

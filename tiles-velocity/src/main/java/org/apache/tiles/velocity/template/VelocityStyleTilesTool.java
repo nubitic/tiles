@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: VelocityStyleTilesTool.java 1058140 2011-01-12 13:49:44Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,7 +24,7 @@ package org.apache.tiles.velocity.template;
 import java.io.IOException;
 import java.io.Writer;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.Attribute;
 import org.apache.tiles.AttributeContext;
@@ -39,7 +39,7 @@ import org.apache.velocity.runtime.Renderable;
 /**
  * Tiles Tool to be used "the classic way".
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1058140 $ $Date: 2011-01-13 00:49:44 +1100 (Thu, 13 Jan 2011) $
  * @since 2.2.0
  */
 public class VelocityStyleTilesTool extends ContextHolder {

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: OptionsRenderer.java 1486577 2013-05-27 11:16:52Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -42,9 +42,9 @@ import org.slf4j.LoggerFactory;
 /**
  * Provides a custom "options" syntax for attributes.
  * The first option that can be rendered is.
- * Comes from <a href="http://tech.finn.no/the-ultimate-view/">The Ultimate View</a> article.<p/>
+ * Comes from <a href="http://tech.finn.no/the-ultimate-view/">The Ultimate View</a> article.<p></p>
  *
- * Actual rendering is delegated to the TypeDetectingRenderer that's supplied in the constructor.<p/>
+ * Actual rendering is delegated to the TypeDetectingRenderer that's supplied in the constructor.<p></p>
  *
  * For example:
  * "/WEB-INF/tiles/fragments/${options[myoptions]}/content.jsp"
@@ -62,13 +62,13 @@ import org.slf4j.LoggerFactory;
  * first in "/WEB-INF/tiles/fragments/car/" then <br/>
  * second in "/WEB-INF/tiles/fragments/vechile/" and <br/>
  * last in "/WEB-INF/tiles/fragments/advert".
- * <p/>
- * <p/>
+ * <p></p>
+ * <p></p>
  * Currently only supports one occurrance of such an "option" pattern in the attribute's value.
- * <p/>
+ * <p></p>
  * Limitation: "looking" for templates is implemented using applicationContext.getResource(..)
  * therefore the option values in the options list need to be visible as applicationResources.
- * <p/>
+ * <p></p>
  * The attribute found and rendered is cached so to improve performance on subsequent lookups.
  * The default cache time-to-live is {@value #DEFAULT_CACHE_LIFE}, specified by {@link #DEFAULT_CACHE_LIFE}.
  * It can be customised by setting the system property {@value #CACHE_LIFE_PROPERTY}, see {@link #CACHE_LIFE_PROPERTY}.
@@ -76,7 +76,7 @@ import org.slf4j.LoggerFactory;
  */
 public final class OptionsRenderer implements Renderer {
 
-    public static final String CACHE_LIFE_PROPERTY = OptionsRenderer.class.getName() + ".cache_ttl_ms";
+    public static final String CACHE_LIFE_PROPERTY = "org.apache.tiles.extras.renderer.OptionsRenderer.cache_ttl_ms";
 
     public static final long DEFAULT_CACHE_LIFE = 1000 * 60 * 5;
 

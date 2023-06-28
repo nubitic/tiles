@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractTilesContainerFactory.java 833737 2009-11-07 19:17:09Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,9 +24,9 @@ import org.apache.tiles.TilesContainer;
 import org.apache.tiles.request.ApplicationContext;
 
 /**
- * Abstract Factory that creates instances of {@link TilesContainerFactory}.
+ * Abstract Factory.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 833737 $ $Date: 2009-11-08 06:17:09 +1100 (Sun, 08 Nov 2009) $
  * @since 2.1.0
  */
 public abstract class AbstractTilesContainerFactory {

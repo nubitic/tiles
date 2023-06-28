@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: SimpleMenuItemTest.java 1045354 2010-12-13 20:08:47Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.junit.Test;
 /**
  * Tests {@link SimpleMenuItem}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1045354 $ $Date: 2010-12-14 07:08:47 +1100 (Tue, 14 Dec 2010) $
  */
 public class SimpleMenuItemTest {
 

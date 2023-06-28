@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractTilesInitializerTest.java 1332134 2012-04-30 09:23:19Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -37,7 +37,7 @@ import org.junit.Test;
 /**
  * Tests {@link AbstractTilesInitializer}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1332134 $ $Date: 2012-04-30 19:23:19 +1000 (Mon, 30 Apr 2012) $
  */
 public class AbstractTilesInitializerTest {
 

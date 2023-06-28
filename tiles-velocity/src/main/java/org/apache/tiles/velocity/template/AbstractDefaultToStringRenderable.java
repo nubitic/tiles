@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractDefaultToStringRenderable.java 791161 2009-07-04 18:53:36Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -25,8 +25,8 @@ import java.io.IOException;
 import java.io.StringWriter;
 import java.util.Map;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.apache.tiles.velocity.TilesVelocityException;
 import org.apache.velocity.context.Context;
@@ -38,10 +38,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Renderable that provides a default implementation of {@link Renderable#toString()}
+ * Renderable that provides a default implementation of {@link Renderable}.toString()
  * and allows access to parameters and context objects.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 791161 $ $Date: 2009-07-05 04:53:36 +1000 (Sun, 05 Jul 2009) $
  * @since 2.2.0
  */
 public abstract class AbstractDefaultToStringRenderable implements Renderable {

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DefinitionsFactoryException.java 942880 2010-05-10 19:58:07Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.apache.tiles.TilesException;
  * Exception thrown when an error occurs while the impl tries to
  * create a new instance mapper.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 942880 $ $Date: 2010-05-11 05:58:07 +1000 (Tue, 11 May 2010) $
  */
 public class DefinitionsFactoryException extends TilesException {
     /**
@@ -50,7 +50,7 @@ public class DefinitionsFactoryException extends TilesException {
 
     /**
      * Create a new <code>DefinitionsFactoryException</code> wrapping an existing exception.
-     * <p/>
+     * <p></p>
      * <p>The existing exception will be embedded in the new
      * one and its message will become the default message for
      * the DefinitionsFactoryException.</p>
@@ -64,7 +64,7 @@ public class DefinitionsFactoryException extends TilesException {
 
     /**
      * Create a new <code>DefinitionsFactoryException</code> from an existing exception.
-     * <p/>
+     * <p></p>
      * <p>The existing exception will be embedded in the new
      * one, but the new exception will have its own message.</p>
      *

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 /*
- * $Id$
+ * $Id: pom.xml 1810193 2017-09-30 11:03:37Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,20 +23,19 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.apache.tiles</groupId>
   <artifactId>tiles-freemarker</artifactId>
   <name>Tiles - FreeMarker Support</name>
   <description>Support for FreeMarker in Apache Tiles. For more read http://tiles.apache.org/framework/tutorial/integration/freemarker.html</description>
   <parent>
       <artifactId>tiles-parent</artifactId>
       <groupId>org.apache.tiles</groupId>
-      <version>3.0.8</version>
+      <version>3.0.8-nubitic-jakarta-api</version>
   </parent>
   <build>
     <plugins>
       <plugin>
         <groupId>org.apache.tiles.autotag.plugin</groupId>
-        <artifactId>maven-autotag-plugin</artifactId>
+        <artifactId>tiles-maven-autotag-plugin</artifactId>
         <version>${tiles.autotag.version}</version>
         <executions>
             <execution>
@@ -68,8 +67,8 @@
     </dependency>
 
     <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>servlet-api</artifactId>
+        <groupId>jakarta.servlet</groupId>
+        <artifactId>jakarta.servlet-api</artifactId>
         <scope>provided</scope>
     </dependency>
 

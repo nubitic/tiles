@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesVelocityExceptionTest.java 1035820 2010-11-16 21:26:24Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.junit.Test;
 /**
  * Tests {@link TilesVelocityException}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1035820 $ $Date: 2010-11-17 08:26:24 +1100 (Wed, 17 Nov 2010) $
  */
 public class TilesVelocityExceptionTest {
 

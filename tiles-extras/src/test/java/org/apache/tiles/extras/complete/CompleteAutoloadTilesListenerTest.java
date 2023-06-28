@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CompleteAutoloadTilesListenerTest.java 799279 2009-07-30 14:25:12Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.junit.Test;
 /**
  * Tests {@link CompleteAutoloadTilesListener}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 799279 $ $Date: 2009-07-31 00:25:12 +1000 (Fri, 31 Jul 2009) $
  */
 public class CompleteAutoloadTilesListenerTest {
 

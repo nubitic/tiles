@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: JspExpressionFactoryFactoryTest.java 1049676 2010-12-15 19:38:54Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,10 +23,10 @@ package org.apache.tiles.el;
 import static org.easymock.classextension.EasyMock.*;
 import static org.junit.Assert.*;
 
-import javax.el.ExpressionFactory;
-import javax.servlet.ServletContext;
-import javax.servlet.jsp.JspApplicationContext;
-import javax.servlet.jsp.JspFactory;
+import jakarta.el.ExpressionFactory;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.jsp.JspApplicationContext;
+import jakarta.servlet.jsp.JspFactory;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.junit.Test;
@@ -34,7 +34,7 @@ import org.junit.Test;
 /**
  * Tests {@link JspExpressionFactoryFactory}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1049676 $ $Date: 2010-12-16 06:38:54 +1100 (Thu, 16 Dec 2010) $
  */
 public class JspExpressionFactoryFactoryTest {
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: NoSuchDefinitionExceptionTest.java 1045365 2010-12-13 20:46:46Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.junit.Test;
 /**
  * Tests {@link NoSuchDefinitionException}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1045365 $ $Date: 2010-12-14 07:46:46 +1100 (Tue, 14 Dec 2010) $
  */
 public class NoSuchDefinitionExceptionTest {
 

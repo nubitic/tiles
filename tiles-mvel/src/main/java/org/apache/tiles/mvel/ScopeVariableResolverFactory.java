@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ScopeVariableResolverFactory.java 1049688 2010-12-15 20:15:41Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -30,7 +30,7 @@ import org.mvel2.integration.VariableResolver;
 /**
  * Resolves beans stored in request, session and application scopes.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1049688 $ $Date: 2010-12-16 07:15:41 +1100 (Thu, 16 Dec 2010) $
  * @since 2.2.0
  */
 public class ScopeVariableResolverFactory extends
@@ -74,7 +74,7 @@ public class ScopeVariableResolverFactory extends
     /**
      * Resolves a single attribute stored in request, session or application scope.
      *
-     * @version $Rev$ $Date$
+     * @version $Rev: 1049688 $ $Date: 2010-12-16 07:15:41 +1100 (Thu, 16 Dec 2010) $
      * @since 2.2.0
      */
     private class ScopeVariableResolver extends ReadOnlyVariableResolver {

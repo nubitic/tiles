@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DefaultLocaleResolver.java 887725 2009-12-06 18:02:10Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -32,7 +32,7 @@ import org.apache.tiles.request.Request;
  * {@link DefaultLocaleResolver#LOCALE_KEY}. If it is not found, it returns the
  * locale included in the request.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 887725 $ $Date: 2009-12-07 05:02:10 +1100 (Mon, 07 Dec 2009) $
  */
 public class DefaultLocaleResolver implements LocaleResolver {
 

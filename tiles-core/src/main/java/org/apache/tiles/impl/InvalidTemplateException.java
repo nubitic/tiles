@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: InvalidTemplateException.java 943985 2010-05-13 19:30:49Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -25,7 +25,7 @@ import org.apache.tiles.TilesException;
 /**
  * An invalid template has been identified.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 943985 $ $Date: 2010-05-14 05:30:49 +1000 (Fri, 14 May 2010) $
  * @since 2.1.0
  */
 public class InvalidTemplateException extends TilesException {

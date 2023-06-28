@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: BasicAttributeEvaluatorFactoryTest.java 788032 2009-06-24 14:08:32Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -31,7 +31,7 @@ import org.junit.Test;
 /**
  * Tests {@link BasicAttributeEvaluatorFactory}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 788032 $ $Date: 2009-06-25 00:08:32 +1000 (Thu, 25 Jun 2009) $
  */
 public class BasicAttributeEvaluatorFactoryTest {
 

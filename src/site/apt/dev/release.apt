@@ -1,4 +1,4 @@
-~~ $Id$
+~~ $Id: release.apt 1810179 2017-09-30 07:13:49Z mck $
 ~~
 ~~ Licensed to the Apache Software Foundation (ASF) under one
 ~~ or more contributor license agreements.  See the NOTICE file
@@ -108,7 +108,7 @@ mvn release:perform -Duser.name=YOUR_PEOPLE_APACHE_SSH_USER -Darguments="-Duser.
 cd target/
 svn co https://dist.apache.org/repos/dist/dev/tiles tiles-dist-dev
 mkdir tiles-dist-dev/request/${version}
-cp checkout/assembly/target/assembly/* tiles-dist-dev/${version}/
+cp checkout/assembly/target/assemblies/* tiles-dist-dev/${version}/
 svn add tiles-dist-dev/${version}
 svn ci tiles-dist-dev/${version}
 -----------------------------------

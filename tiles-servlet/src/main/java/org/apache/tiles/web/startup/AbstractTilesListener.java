@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractTilesListener.java 952763 2010-06-08 18:28:16Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -20,9 +20,9 @@
  */
 package org.apache.tiles.web.startup;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletContextEvent;
-import javax.servlet.ServletContextListener;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContextListener;
 
 import org.apache.tiles.request.servlet.ServletApplicationContext;
 import org.apache.tiles.startup.TilesInitializer;
@@ -30,7 +30,7 @@ import org.apache.tiles.startup.TilesInitializer;
 /**
  * Listener for the initialization of the Tiles container.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 952763 $ $Date: 2010-06-09 04:28:16 +1000 (Wed, 09 Jun 2010) $
  */
 public abstract class AbstractTilesListener implements ServletContextListener {
 

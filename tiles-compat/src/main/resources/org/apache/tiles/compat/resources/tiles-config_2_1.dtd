@@ -1,6 +1,6 @@
 <!--
 %
-   $Id$
+   $Id: tiles-config_2_1.dtd 942533 2010-05-09 12:59:05Z apetrelli $
 
    Licensed to the Apache Software Foundation (ASF) under one
    or more contributor license agreements.  See the NOTICE file
@@ -21,7 +21,7 @@
 
 %
 
-@hidden $Id$
+@hidden $Id: tiles-config_2_1.dtd 942533 2010-05-09 12:59:05Z apetrelli $
 @title DTD for the Tiles Definition File, Version 2.1
 @doctype tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd"
 @root tiles-definitions

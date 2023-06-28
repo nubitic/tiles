@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ContextHolder.java 765774 2009-04-16 21:43:00Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -21,16 +21,16 @@
 
 package org.apache.tiles.velocity.template;
 
-import javax.servlet.ServletContext;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.apache.velocity.context.Context;
 
 /**
  * An object that holds the current state of Velocity in a Servlet environment.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 765774 $ $Date: 2009-04-17 07:43:00 +1000 (Fri, 17 Apr 2009) $
  * @since 2.2.0
  */
 public class ContextHolder {

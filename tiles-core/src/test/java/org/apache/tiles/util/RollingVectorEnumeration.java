@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: RollingVectorEnumeration.java 645636 2008-04-07 18:12:50Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -29,7 +29,7 @@ import java.util.Vector;
  * enumerating items, it starts from the beginning.
  *
  * @param <E> The type of the element of this enumeration.
- * @version $Rev$ $Date$
+ * @version $Rev: 645636 $ $Date: 2008-04-08 04:12:50 +1000 (Tue, 08 Apr 2008) $
  */
 public class RollingVectorEnumeration<E> implements Enumeration<E> {
 

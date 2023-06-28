@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesInitializer.java 833737 2009-11-07 19:17:09Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,7 +26,7 @@ import org.apache.tiles.request.ApplicationContext;
  * Tiles initialization delegate. It initializes Tiles container(s) and the
  * application context to use across all the application.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 833737 $ $Date: 2009-11-08 06:17:09 +1100 (Sun, 08 Nov 2009) $
  */
 public interface TilesInitializer {
 

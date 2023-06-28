@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractAttributeEvaluator.java 833737 2009-11-07 19:17:09Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.apache.tiles.request.Request;
  * Abstract class to link a correct evaluation of an attribute, by evaluating
  * {@link Attribute#getValue()} and then {@link Attribute#getExpressionObject()}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 833737 $ $Date: 2009-11-08 06:17:09 +1100 (Sun, 08 Nov 2009) $
  * @since 2.1.2
  */
 public abstract class AbstractAttributeEvaluator implements AttributeEvaluator {

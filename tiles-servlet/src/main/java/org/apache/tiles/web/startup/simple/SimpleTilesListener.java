@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: SimpleTilesListener.java 797540 2009-07-24 15:42:00Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.apache.tiles.web.startup.AbstractTilesListener;
 /**
  * A Tiles listener that loads Tiles in the default way.
  *
- * @version $Rev$ $Date$ù
+ * @version $Rev: 797540 $ $Date: 2009-07-25 01:42:00 +1000 (Sat, 25 Jul 2009) $ù
  * @since 2.2.0
  */
 public class SimpleTilesListener extends AbstractTilesListener {

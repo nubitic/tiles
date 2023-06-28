@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DigesterDefinitionsReader.java 990237 2010-08-27 19:33:35Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -42,13 +42,13 @@ import org.xml.sax.SAXParseException;
 
 /**
  * Reads {@link Definition} objects from
- * an XML InputStream using Digester. <p/>
+ * an XML InputStream using Digester. <p></p>
  * <p>
  * This <code>DefinitionsReader</code> implementation expects the source to be
  * passed as an <code>InputStream</code>. It parses XML data from the source
  * and builds a Map of Definition objects.
  * </p>
- * <p/>
+ * <p></p>
  * <p>
  * The Digester object can be configured by passing in initialization
  * parameters. Currently the only parameter that is supported is the
@@ -56,7 +56,7 @@ import org.xml.sax.SAXParseException;
  * by default. To enable DTD validation for XML Definition files, give the init
  * method a parameter with a key of
  * <code>org.apache.tiles.definition.digester.DigesterDefinitionsReader.PARSER_VALIDATE</code>
- * and a value of <code>&quot;true&quot;</code>. <p/>
+ * and a value of <code>&quot;true&quot;</code>. <p></p>
  * <p>
  * The Definition objects are stored internally in a Map. The Map is stored as
  * an instance variable rather than a local variable in the <code>read</code>
@@ -64,7 +64,7 @@ import org.xml.sax.SAXParseException;
  * thread-safe and access by multiple threads must be synchronized.
  * </p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 990237 $ $Date: 2010-08-28 05:33:35 +1000 (Sat, 28 Aug 2010) $
  */
 public class DigesterDefinitionsReader implements DefinitionsReader {
 
@@ -288,7 +288,7 @@ public class DigesterDefinitionsReader implements DefinitionsReader {
 
     /**
      * Reads <code>{@link Definition}</code> objects from a source.
-     * <p/>
+     * <p></p>
      * Implementations should publish what type of source object is expected.
      *
      * @param source The <code>InputStream</code> source from which definitions

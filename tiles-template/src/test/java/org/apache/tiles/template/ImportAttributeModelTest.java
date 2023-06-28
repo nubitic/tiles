@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ImportAttributeModelTest.java 887764 2009-12-06 20:30:51Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -41,7 +41,7 @@ import org.junit.Test;
 /**
  * Tests {@link ImportAttributeModel}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 887764 $ $Date: 2009-12-07 07:30:51 +1100 (Mon, 07 Dec 2009) $
  */
 public class ImportAttributeModelTest {
 

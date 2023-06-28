@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ComposeStackUtil.java 1305937 2012-03-27 18:15:15Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -30,7 +30,7 @@ import org.apache.tiles.request.Request;
 /**
  * Utilities to work with compose stacks.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1305937 $ $Date: 2012-03-28 05:15:15 +1100 (Wed, 28 Mar 2012) $
  * @since 3.0.0
  */
 public final class ComposeStackUtil {

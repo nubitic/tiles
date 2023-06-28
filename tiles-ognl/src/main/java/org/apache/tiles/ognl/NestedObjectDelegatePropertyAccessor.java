@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: NestedObjectDelegatePropertyAccessor.java 1049696 2010-12-15 20:30:10Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -34,7 +34,7 @@ import ognl.PropertyAccessor;
  * @param <T> The root object type from which the target object will be
  * extracted.
  * @since 2.2.0
- * @version $Rev$ $Date$
+ * @version $Rev: 1049696 $ $Date: 2010-12-16 07:30:10 +1100 (Thu, 16 Dec 2010) $
  */
 public class NestedObjectDelegatePropertyAccessor<T> implements
         PropertyAccessor {

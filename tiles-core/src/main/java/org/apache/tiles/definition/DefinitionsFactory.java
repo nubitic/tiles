@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DefinitionsFactory.java 833737 2009-11-07 19:17:09Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,7 +26,7 @@ import org.apache.tiles.request.Request;
 
 /**
  * Interface for creating a {@link Definition}s and managing their contents.
- * <p/>
+ * <p></p>
  * <p>
  * DefinitionsFactory implementations are responsible for maintaining the data
  * sources of Tiles configuration data and using the data to create Definitions
@@ -34,7 +34,7 @@ import org.apache.tiles.request.Request;
  * data to an existing Definitions set.
  * </p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 833737 $ $Date: 2009-11-08 06:17:09 +1100 (Sun, 08 Nov 2009) $
  */
 public interface DefinitionsFactory {
 

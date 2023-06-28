@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: JspExpressionFactoryFactory.java 1229087 2012-01-09 10:35:14Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -21,9 +21,9 @@
 
 package org.apache.tiles.el;
 
-import javax.el.ExpressionFactory;
-import javax.servlet.ServletContext;
-import javax.servlet.jsp.JspFactory;
+import jakarta.el.ExpressionFactory;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.jsp.JspFactory;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.request.ApplicationContextAware;
@@ -31,7 +31,7 @@ import org.apache.tiles.request.ApplicationContextAware;
 /**
  * Uses the JSP 2.1 {@link ExpressionFactory} to be used in Tiles.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1229087 $ $Date: 2012-01-09 21:35:14 +1100 (Mon, 09 Jan 2012) $
  * @since 2.2.1
  */
 public class JspExpressionFactoryFactory implements ExpressionFactoryFactory,

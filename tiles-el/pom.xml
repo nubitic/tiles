@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
   <!--
-    /* * $Id$ * *
+    /* * $Id: pom.xml 1810193 2017-09-30 11:03:37Z mck $ * *
     Licensed to the Apache Software Foundation (ASF) under one * or more
     contributor license agreements. See the NOTICE file * distributed
     with this work for additional information * regarding copyright
@@ -19,7 +19,7 @@
   <parent>
     <groupId>org.apache.tiles</groupId>
     <artifactId>tiles-parent</artifactId>
-    <version>3.0.8</version>
+    <version>3.0.8-nubitic-jakarta-api</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
@@ -105,24 +105,24 @@
     </dependency>
 
     <dependency>
-      <groupId>javax.el</groupId>
-      <artifactId>el-api</artifactId>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
+      <groupId>jakarta.el</groupId>
+      <artifactId>jakarta.el-api</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>javax.servlet.jsp</groupId>
-      <artifactId>jsp-api</artifactId>
+      <groupId>jakarta.servlet.jsp</groupId>
+      <artifactId>jakarta.servlet.jsp-api</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.apache.tomcat</groupId>
-      <artifactId>jasper-el</artifactId>
-      <version>6.0.20</version>
+	    <groupId>org.apache.tomcat</groupId>
+	    <artifactId>tomcat-jasper-el</artifactId>
+	    <version>10.1.10</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>

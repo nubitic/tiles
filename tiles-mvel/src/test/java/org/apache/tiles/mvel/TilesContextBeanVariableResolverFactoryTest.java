@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesContextBeanVariableResolverFactoryTest.java 1291847 2012-02-21 15:09:30Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -38,7 +38,7 @@ import org.mvel2.integration.VariableResolver;
 /**
  * Tests {@link TilesContextBeanVariableResolverFactory}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1291847 $ $Date: 2012-02-22 02:09:30 +1100 (Wed, 22 Feb 2012) $
  * @since 2.2.0
  */
 public class TilesContextBeanVariableResolverFactoryTest {

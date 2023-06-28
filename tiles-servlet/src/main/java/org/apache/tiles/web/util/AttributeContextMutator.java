@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AttributeContextMutator.java 531864 2007-04-24 10:24:30Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -22,7 +22,7 @@ package org.apache.tiles.web.util;
 
 import org.apache.tiles.AttributeContext;
 
-import javax.servlet.ServletRequest;
+import jakarta.servlet.ServletRequest;
 
 /**
  * It represents an object able to manipulate a <code>AttributeContext</code>.
@@ -30,7 +30,7 @@ import javax.servlet.ServletRequest;
  * <code>AttributeContext</code>.
  *
  * @since Tiles 2.0
- * @version $Rev$ $Date$
+ * @version $Rev: 531864 $ $Date: 2007-04-24 20:24:30 +1000 (Tue, 24 Apr 2007) $
  */
 public interface AttributeContextMutator {
 

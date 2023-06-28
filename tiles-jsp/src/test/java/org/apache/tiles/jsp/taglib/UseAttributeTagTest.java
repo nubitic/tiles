@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: UseAttributeTagTest.java 1332134 2012-04-30 09:23:19Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,14 +27,14 @@ import static org.junit.Assert.*;
 import java.io.IOException;
 import java.util.Map;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.jsp.JspException;
-import javax.servlet.jsp.PageContext;
-import javax.servlet.jsp.tagext.JspFragment;
-import javax.servlet.jsp.tagext.JspTag;
-import javax.servlet.jsp.tagext.TagData;
-import javax.servlet.jsp.tagext.VariableInfo;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.jsp.JspException;
+import jakarta.servlet.jsp.PageContext;
+import jakarta.servlet.jsp.tagext.JspFragment;
+import jakarta.servlet.jsp.tagext.JspTag;
+import jakarta.servlet.jsp.tagext.TagData;
+import jakarta.servlet.jsp.tagext.VariableInfo;
 
 import org.apache.tiles.Attribute;
 import org.apache.tiles.AttributeContext;
@@ -49,7 +49,7 @@ import org.junit.Test;
 /**
  * Tests {@link UseAttributeTag}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1332134 $ $Date: 2012-04-30 19:23:19 +1000 (Mon, 30 Apr 2012) $
  */
 public class UseAttributeTagTest {
 

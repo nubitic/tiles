@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: GetAsStringModelTest.java 1625204 2014-09-16 02:21:04Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -44,7 +44,7 @@ import org.junit.Test;
 /**
  * Tests {@link GetAsStringModel}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1625204 $ $Date: 2014-09-16 12:21:04 +1000 (Tue, 16 Sep 2014) $
  */
 public class GetAsStringModelTest {
 

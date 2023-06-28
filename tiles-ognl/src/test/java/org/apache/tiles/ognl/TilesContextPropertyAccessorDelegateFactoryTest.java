@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesContextPropertyAccessorDelegateFactoryTest.java 1049697 2010-12-15 20:31:21Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -36,7 +36,7 @@ import org.junit.Test;
 /**
  * Tests {@link TilesContextPropertyAccessorDelegateFactory}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1049697 $ $Date: 2010-12-16 07:31:21 +1100 (Thu, 16 Dec 2010) $
  */
 public class TilesContextPropertyAccessorDelegateFactoryTest {
 

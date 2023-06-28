@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DefinitionRenderer.java 1215008 2011-12-16 00:31:49Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -30,7 +30,7 @@ import org.apache.tiles.request.render.Renderer;
 /**
  * Renders an attribute that contains a reference to a definition.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1215008 $ $Date: 2011-12-16 11:31:49 +1100 (Fri, 16 Dec 2011) $
  * @since 3.0.0
  */
 public class DefinitionRenderer implements Renderer {

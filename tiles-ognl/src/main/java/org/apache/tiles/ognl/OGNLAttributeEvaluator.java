@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: OGNLAttributeEvaluator.java 833737 2009-11-07 19:17:09Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -31,7 +31,7 @@ import org.apache.tiles.request.Request;
 /**
  * Evaluates attribute expressions and expressions with OGNL language.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 833737 $ $Date: 2009-11-08 06:17:09 +1100 (Sun, 08 Nov 2009) $
  * @since 2.2.0
  */
 public class OGNLAttributeEvaluator extends AbstractAttributeEvaluator {

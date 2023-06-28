@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: package-info.java 1310865 2012-04-07 21:01:22Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CompatibilityDigesterDefinitionsReader.java 947472 2010-05-23 19:32:49Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -31,7 +31,7 @@ import org.xml.sax.Attributes;
 /**
  * Digester reader that can read Tiles 1.1, 1.2, 1.3, 1.4 and 2.0 files.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 947472 $ $Date: 2010-05-24 05:32:49 +1000 (Mon, 24 May 2010) $
  * @since 2.1.0
  */
 public class CompatibilityDigesterDefinitionsReader extends

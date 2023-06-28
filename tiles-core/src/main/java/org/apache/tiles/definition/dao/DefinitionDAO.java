@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DefinitionDAO.java 666834 2008-06-11 20:49:05Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -29,7 +29,7 @@ import org.apache.tiles.Definition;
  * customization key.
  *
  * @param <K> The customization key class.
- * @version $Rev$ $Date$
+ * @version $Rev: 666834 $ $Date: 2008-06-12 06:49:05 +1000 (Thu, 12 Jun 2008) $
  * @since 2.1.0
  */
 public interface DefinitionDAO<K> {

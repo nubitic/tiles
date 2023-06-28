@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: WildcardDefinitionPatternMatcher.java 795343 2009-07-18 11:26:09Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -31,7 +31,7 @@ import org.apache.tiles.util.WildcardHelper;
 /**
  * Matches wildcard patterns in definitions.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 795343 $ $Date: 2009-07-18 21:26:09 +1000 (Sat, 18 Jul 2009) $
  * @since 2.2.0
  */
 public class WildcardDefinitionPatternMatcher implements

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: SimpleTilesInitializerServlet.java 1310865 2012-04-07 21:01:22Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -29,7 +29,7 @@ import org.apache.tiles.web.startup.AbstractTilesInitializerServlet;
  * A Tiles listener that loads Tiles in the default way.
  *
  * @deprecated use {@link SimpleTilesListener} instead.
- * @version $Rev$ $Date$
+ * @version $Rev: 1310865 $ $Date: 2012-04-08 07:01:22 +1000 (Sun, 08 Apr 2012) $
  * @since 2.2.0
  */
 @Deprecated

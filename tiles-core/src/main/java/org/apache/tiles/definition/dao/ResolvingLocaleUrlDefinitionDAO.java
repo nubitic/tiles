@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ResolvingLocaleUrlDefinitionDAO.java 1297705 2012-03-06 20:44:30Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -42,7 +42,7 @@ import org.slf4j.LoggerFactory;
  * It can check if the URLs change, but by default this feature is turned off.
  * </p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1297705 $ $Date: 2012-03-07 07:44:30 +1100 (Wed, 07 Mar 2012) $
  * @since 2.1.0
  */
 public class ResolvingLocaleUrlDefinitionDAO extends

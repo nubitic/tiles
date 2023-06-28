@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: BasicAttributeContext.java 943645 2010-05-12 19:33:19Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -32,7 +32,7 @@ import java.util.Set;
 /**
  * Basic implementation for <code>AttributeContext</code>.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 943645 $ $Date: 2010-05-13 05:33:19 +1000 (Thu, 13 May 2010) $
  * @since 2.1.0
  */
 public class BasicAttributeContext implements AttributeContext, Serializable {

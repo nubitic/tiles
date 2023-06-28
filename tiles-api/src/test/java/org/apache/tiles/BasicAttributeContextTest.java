@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: BasicAttributeContextTest.java 832840 2009-11-04 18:44:25Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -36,7 +36,7 @@ import org.junit.Test;
 /**
  * Tests <code>BasicAttributeContext</code>.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 832840 $ $Date: 2009-11-05 05:44:25 +1100 (Thu, 05 Nov 2009) $
  */
 public class BasicAttributeContextTest {
 

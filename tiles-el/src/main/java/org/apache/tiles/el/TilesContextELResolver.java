@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesContextELResolver.java 1049676 2010-12-15 19:38:54Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,8 +23,8 @@ package org.apache.tiles.el;
 import java.beans.FeatureDescriptor;
 import java.util.Iterator;
 
-import javax.el.ELContext;
-import javax.el.ELResolver;
+import jakarta.el.ELContext;
+import jakarta.el.ELResolver;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.request.Request;
@@ -34,7 +34,7 @@ import org.apache.tiles.util.CombinedBeanInfo;
  * Resolves properties of {@link Request} and
  * {@link ApplicationContext}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1049676 $ $Date: 2010-12-16 06:38:54 +1100 (Thu, 16 Dec 2010) $
  * @since 2.2.1
  */
 public class TilesContextELResolver extends ELResolver {

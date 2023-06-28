@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DefaultAttributeResolver.java 836174 2009-11-14 13:40:31Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -30,7 +30,7 @@ import org.apache.tiles.request.Request;
 /**
  * The default implementation of AttributeResolver.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 836174 $ $Date: 2009-11-15 00:40:31 +1100 (Sun, 15 Nov 2009) $
  * @since 2.2.0
  */
 public class DefaultAttributeResolver implements AttributeResolver {

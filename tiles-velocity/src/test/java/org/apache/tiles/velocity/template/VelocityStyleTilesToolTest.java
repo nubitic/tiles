@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: VelocityStyleTilesToolTest.java 1291847 2012-02-21 15:09:30Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -35,9 +35,9 @@ import java.io.StringWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.servlet.ServletContext;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.apache.tiles.Attribute;
 import org.apache.tiles.AttributeContext;
@@ -56,7 +56,7 @@ import org.junit.Test;
 /**
  * Tests {@link VelocityStyleTilesTool}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1291847 $ $Date: 2012-02-22 02:09:30 +1100 (Wed, 22 Feb 2012) $
  * @since 2.2.0
  */
 public class VelocityStyleTilesToolTest {

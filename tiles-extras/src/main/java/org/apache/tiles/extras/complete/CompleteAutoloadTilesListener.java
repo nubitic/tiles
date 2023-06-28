@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CompleteAutoloadTilesListener.java 799008 2009-07-29 18:46:16Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,7 +27,7 @@ import org.apache.tiles.web.startup.AbstractTilesListener;
 /**
  * Tiles listener that executes {@link CompleteAutoloadTilesInitializer}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 799008 $ $Date: 2009-07-30 04:46:16 +1000 (Thu, 30 Jul 2009) $
  * @since 2.2.0
  */
 public class CompleteAutoloadTilesListener extends AbstractTilesListener {

@@ -26,7 +26,7 @@
    <parent>
       <groupId>org.apache.tiles</groupId>
       <artifactId>tiles-test-pom</artifactId>
-      <version>3.0.8</version>
+      <version>3.0.8-nubitic-jakarta-api</version>
    </parent>
 
    <modelVersion>4.0.0</modelVersion>
@@ -73,18 +73,16 @@
        <artifactId>jcl-over-slf4j</artifactId>
      </dependency>
 
-      <dependency>
-         <groupId>javax.servlet</groupId>
-         <artifactId>servlet-api</artifactId>
-         <version>2.5</version>
-         <scope>provided</scope>
-      </dependency>
-      <dependency>
-         <groupId>javax.servlet.jsp</groupId>
-         <artifactId>jsp-api</artifactId>
-         <version>2.1</version>
-         <scope>provided</scope>
-      </dependency>
+    <dependency>
+	    <groupId>jakarta.servlet</groupId>
+	    <artifactId>jakarta.servlet-api</artifactId>
+        <scope>provided</scope>
+    </dependency>
+	<dependency>
+		<groupId>jakarta.servlet.jsp</groupId>
+		<artifactId>jakarta.servlet.jsp-api</artifactId>
+		<scope>provided</scope>
+	</dependency>
       <dependency>
          <groupId>javax.portlet</groupId>
          <artifactId>portlet-api</artifactId>
@@ -131,7 +129,7 @@
           <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-war-plugin</artifactId>
-              <version>2.4</version>
+              <version>3.4.0</version>
               <configuration>
                   <webResources>
                       <resource>
@@ -418,26 +416,6 @@
                                         <exclude>**/*.sql</exclude>
                                         <exclude>**/*MANIFEST.MF</exclude>
                                     </excludes>
-                                </configuration>
-                            </execution>
-                        </executions>
-                    </plugin>
-                    <plugin>
-                        <groupId>org.codehaus.mojo</groupId>
-                        <artifactId>wagon-maven-plugin</artifactId>
-                        <version>1.0-beta-4</version>
-                        <executions>
-                            <execution>
-                                <phase>deploy</phase>
-                                <goals>
-                                    <goal>upload</goal>
-                                </goals>
-                                <configuration>
-                                    <fromDir>${settings.localRepository}/org/apache/tiles/tiles-test/${project.version}</fromDir>
-                                    <includes>tiles-test-${project.version}.war*</includes>
-                                    <toDir>${project.version}</toDir>
-                                    <serverId>tiles.build</serverId>
-                                    <url>scp://people.apache.org/www/people.apache.org/builds/tiles</url>
                                 </configuration>
                             </execution>
                         </executions>

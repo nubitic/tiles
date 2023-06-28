@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PatternUtilTest.java 1594481 2014-05-14 06:52:35Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -38,7 +38,7 @@ import org.junit.Test;
 /**
  * Tests {@link PatternUtil}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1594481 $ $Date: 2014-05-14 16:52:35 +1000 (Wed, 14 May 2014) $
  * @since 2.2.0
  */
 public class PatternUtilTest {

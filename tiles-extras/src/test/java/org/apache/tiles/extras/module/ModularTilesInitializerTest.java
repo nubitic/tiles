@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ModularTilesInitializerTest.java 833737 2009-11-07 19:17:09Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,7 +27,7 @@ import static org.easymock.EasyMock.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.startup.TilesInitializer;
@@ -36,7 +36,7 @@ import org.junit.Test;
 /**
  * Tests {@link ModularTilesInitializer}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 833737 $ $Date: 2009-11-08 06:17:09 +1100 (Sun, 08 Nov 2009) $
  */
 public class ModularTilesInitializerTest {
 
@@ -69,7 +69,7 @@ public class ModularTilesInitializerTest {
     /**
      * A mock {@link TilesInitializer} with probes.
      *
-     * @version $Rev$ $Date$
+     * @version $Rev: 833737 $ $Date: 2009-11-08 06:17:09 +1100 (Sun, 08 Nov 2009) $
      */
     public static class TilesInitializer1 implements TilesInitializer {
 
@@ -97,7 +97,7 @@ public class ModularTilesInitializerTest {
     /**
      * A second mock {@link TilesInitializer} with probes.
      *
-     * @version $Rev$ $Date$
+     * @version $Rev: 833737 $ $Date: 2009-11-08 06:17:09 +1100 (Sun, 08 Nov 2009) $
      */
     public static class TilesInitializer2 implements TilesInitializer {
 

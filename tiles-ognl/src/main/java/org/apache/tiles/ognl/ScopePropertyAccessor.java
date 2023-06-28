@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ScopePropertyAccessor.java 1049696 2010-12-15 20:30:10Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -30,7 +30,7 @@ import org.apache.tiles.request.Request;
 /**
  * Accesses a scope.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1049696 $ $Date: 2010-12-16 07:30:10 +1100 (Thu, 16 Dec 2010) $
  */
 public class ScopePropertyAccessor implements PropertyAccessor {
 

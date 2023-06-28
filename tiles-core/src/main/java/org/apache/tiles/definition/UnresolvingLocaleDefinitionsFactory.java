@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: UnresolvingLocaleDefinitionsFactory.java 891884 2009-12-17 20:43:12Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -31,14 +31,14 @@ import org.apache.tiles.request.Request;
 /**
  * {@link DefinitionsFactory DefinitionsFactory} implementation that manages
  * Definitions configuration data from URLs, without resolving definition
- * inheritance when a definition is returned.<p/>
+ * inheritance when a definition is returned.<p></p>
  * <p>
  * The Definition objects are read from the
  * {@link org.apache.tiles.definition.digester.DigesterDefinitionsReader DigesterDefinitionsReader}
  * class unless another implementation is specified.
  * </p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 891884 $ $Date: 2009-12-18 07:43:12 +1100 (Fri, 18 Dec 2009) $
  * @since 2.2.1
  */
 public class UnresolvingLocaleDefinitionsFactory implements DefinitionsFactory {

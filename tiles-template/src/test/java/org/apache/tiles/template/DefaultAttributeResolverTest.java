@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DefaultAttributeResolverTest.java 836174 2009-11-14 13:40:31Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -35,7 +35,7 @@ import org.junit.Test;
 /**
  * Tests {@link DefaultAttributeResolver}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 836174 $ $Date: 2009-11-15 00:40:31 +1100 (Sun, 15 Nov 2009) $
  */
 public class DefaultAttributeResolverTest {
 

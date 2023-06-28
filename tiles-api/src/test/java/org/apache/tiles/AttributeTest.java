@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AttributeTest.java 1035061 2010-11-14 20:32:50Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -35,7 +35,7 @@ import org.junit.Test;
 /**
  * Tests {@link Attribute}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1035061 $ $Date: 2010-11-15 07:32:50 +1100 (Mon, 15 Nov 2010) $
  */
 public class AttributeTest {
 

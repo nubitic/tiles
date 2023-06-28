@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PutAttributeModel.java 1305937 2012-03-27 18:15:15Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -37,7 +37,6 @@ import org.apache.tiles.request.Request;
  * <p>
  * <strong>Put an attribute in enclosing attribute container tag.</strong>
  * </p>
- * <p>
  * Enclosing attribute container tag can be :
  * <ul>
  * <li>&lt;initContainer&gt;</li>
@@ -48,8 +47,6 @@ import org.apache.tiles.request.Request;
  * </ul>
  * (or any other tag which implements the <code>PutAttributeTagParent</code>
  * interface. Exception is thrown if no appropriate tag can be found.
- * </p>
- * <p>
  * Put tag can have following atributes :
  * <ul>
  * <li>name : Name of the attribute</li>
@@ -59,14 +56,13 @@ import org.apache.tiles.request.Request;
  * is used as a definition name to insert), object (value is used as it is)</li>
  * <li>role : Role to check when 'insertAttribute' will be called.</li>
  * </ul>
- * </p>
  * <p>
  * Value can also come from tag body. Tag body is taken into account only if
  * value is not set by one of the tag attributes. In this case Attribute type is
  * "string", unless tag body define another type.
  * </p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1305937 $ $Date: 2012-03-28 05:15:15 +1100 (Wed, 28 Mar 2012) $
  * @since 2.2.0
  */
 public class PutAttributeModel {

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesContainerAware.java 630422 2008-02-23 11:20:20Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,7 +26,7 @@ import org.apache.tiles.TilesContainer;
  * It represents an object that can have a reference to the
  * {@link TilesContainer}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 630422 $ $Date: 2008-02-23 22:20:20 +1100 (Sat, 23 Feb 2008) $
  * @since 2.1.0
  */
 public interface TilesContainerAware {

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: BaseLocaleUrlDefinitionDAO.java 1297705 2012-03-06 20:44:30Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -44,7 +44,7 @@ import org.slf4j.LoggerFactory;
  * Base abstract class for a DAO that is based on URLs and locale as a
  * customization key.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1297705 $ $Date: 2012-03-07 07:44:30 +1100 (Wed, 07 Mar 2012) $
  * @since 2.1.0
  */
 public abstract class BaseLocaleUrlDefinitionDAO implements

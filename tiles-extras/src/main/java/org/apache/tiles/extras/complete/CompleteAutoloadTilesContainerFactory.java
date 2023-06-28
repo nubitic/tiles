@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CompleteAutoloadTilesContainerFactory.java 1332136 2012-04-30 09:34:09Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,13 +28,13 @@ import java.util.List;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
-import javax.el.ArrayELResolver;
-import javax.el.BeanELResolver;
-import javax.el.CompositeELResolver;
-import javax.el.ELResolver;
-import javax.el.ListELResolver;
-import javax.el.MapELResolver;
-import javax.el.ResourceBundleELResolver;
+import jakarta.el.ArrayELResolver;
+import jakarta.el.BeanELResolver;
+import jakarta.el.CompositeELResolver;
+import jakarta.el.ELResolver;
+import jakarta.el.ListELResolver;
+import jakarta.el.MapELResolver;
+import jakarta.el.ResourceBundleELResolver;
 
 import ognl.OgnlException;
 import ognl.OgnlRuntime;
@@ -101,7 +101,7 @@ import org.mvel2.integration.VariableResolverFactory;
  * <code>META-INF</code> directories (and subdirectories) in every jar.</li>
  * </ul>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1332136 $ $Date: 2012-04-30 19:34:09 +1000 (Mon, 30 Apr 2012) $
  * @since 2.2.0
  */
 public class CompleteAutoloadTilesContainerFactory extends BasicTilesContainerFactory {

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: BasicTilesContainerFactoryTest.java 1310865 2012-04-07 21:01:22Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -54,7 +54,7 @@ import org.easymock.EasyMock;
 /**
  * Tests {@link BasicTilesContainerFactory}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1310865 $ $Date: 2012-04-08 07:01:22 +1000 (Sun, 08 Apr 2012) $
  */
 public class BasicTilesContainerFactoryTest extends TestCase {
 

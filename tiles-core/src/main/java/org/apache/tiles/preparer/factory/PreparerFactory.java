@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PreparerFactory.java 1310865 2012-04-07 21:01:22Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,7 +27,7 @@ import org.apache.tiles.request.Request;
  * <p>
  * Factory interface used to create/retrieve instances of
  * the {@link ViewPreparer} interface.
- * <p/>
+ * <p></p>
  *
  * <p>
  * This factory provides an extension point into the default
@@ -38,7 +38,7 @@ import org.apache.tiles.request.Request;
  *
  * @since 2.0
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1310865 $ $Date: 2012-04-08 07:01:22 +1000 (Sun, 08 Apr 2012) $
  */
 public interface PreparerFactory {
 

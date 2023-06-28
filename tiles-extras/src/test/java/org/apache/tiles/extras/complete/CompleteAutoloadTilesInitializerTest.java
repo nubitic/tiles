@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CompleteAutoloadTilesInitializerTest.java 892369 2009-12-18 20:21:36Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,7 +24,7 @@ package org.apache.tiles.extras.complete;
 import static org.junit.Assert.*;
 import static org.easymock.EasyMock.*;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext;
@@ -34,7 +34,7 @@ import org.junit.Test;
 /**
  * @author antonio
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 892369 $ $Date: 2009-12-19 07:21:36 +1100 (Sat, 19 Dec 2009) $
  */
 public class CompleteAutoloadTilesInitializerTest {
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: SetCurrentContainerModel.java 1058106 2011-01-12 12:22:58Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,7 +26,7 @@ import org.apache.tiles.request.Request;
 /**
  * Selects a container to be used as the "current" container.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1058106 $ $Date: 2011-01-12 23:22:58 +1100 (Wed, 12 Jan 2011) $
  * @since 3.0.0
  */
 public class SetCurrentContainerModel {

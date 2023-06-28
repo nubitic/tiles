@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DigesterDefinitionsReaderException.java 942880 2010-05-10 19:58:07Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,7 +26,7 @@ import org.apache.tiles.TilesException;
  * Indicates that something went wrong during the use of
  * {@link DigesterDefinitionsReader}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 942880 $ $Date: 2010-05-11 05:58:07 +1000 (Tue, 11 May 2010) $
  * @since 2.1.0
  */
 public class DigesterDefinitionsReaderException extends TilesException {

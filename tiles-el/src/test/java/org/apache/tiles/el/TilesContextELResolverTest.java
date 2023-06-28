@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: TilesContextELResolverTest.java 1049676 2010-12-15 19:38:54Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -29,8 +29,8 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import javax.el.ELContext;
-import javax.el.ELResolver;
+import jakarta.el.ELContext;
+import jakarta.el.ELResolver;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.request.Request;
@@ -41,7 +41,7 @@ import org.junit.Test;
 /**
  * Tests {@link TilesContextELResolver}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1049676 $ $Date: 2010-12-16 06:38:54 +1100 (Thu, 16 Dec 2010) $
  */
 public class TilesContextELResolverTest {
 

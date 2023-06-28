@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: BasicTilesContainer.java 1330672 2012-04-26 06:58:16Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -53,7 +53,7 @@ import org.slf4j.LoggerFactory;
  * override the container
  *
  * @since 2.0
- * @version $Rev$ $Date$
+ * @version $Rev: 1330672 $ $Date: 2012-04-26 16:58:16 +1000 (Thu, 26 Apr 2012) $
  */
 public class BasicTilesContainer implements TilesContainer,
         AttributeEvaluatorFactoryAware {

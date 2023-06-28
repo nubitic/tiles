@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ELAttributeEvaluatorTest.java 1291847 2012-02-21 15:09:30Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,13 +24,13 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.el.ArrayELResolver;
-import javax.el.BeanELResolver;
-import javax.el.CompositeELResolver;
-import javax.el.ELResolver;
-import javax.el.ListELResolver;
-import javax.el.MapELResolver;
-import javax.el.ResourceBundleELResolver;
+import jakarta.el.ArrayELResolver;
+import jakarta.el.BeanELResolver;
+import jakarta.el.CompositeELResolver;
+import jakarta.el.ELResolver;
+import jakarta.el.ListELResolver;
+import jakarta.el.MapELResolver;
+import jakarta.el.ResourceBundleELResolver;
 
 import junit.framework.TestCase;
 
@@ -44,7 +44,7 @@ import org.easymock.EasyMock;
 /**
  * Tests {@link ELAttributeEvaluator}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1291847 $ $Date: 2012-02-22 02:09:30 +1100 (Wed, 22 Feb 2012) $
  */
 public class ELAttributeEvaluatorTest extends TestCase {
 

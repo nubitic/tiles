@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: BasicTilesContainerFactory.java 1310865 2012-04-07 21:01:22Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -57,7 +57,7 @@ import org.apache.tiles.request.render.StringRenderer;
 /**
  * Factory that builds a standard Tiles container using only Java code.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1310865 $ $Date: 2012-04-08 07:01:22 +1000 (Sun, 08 Apr 2012) $
  * @since 2.1.0
  */
 public class BasicTilesContainerFactory extends AbstractTilesContainerFactory {
@@ -252,8 +252,8 @@ public class BasicTilesContainerFactory extends AbstractTilesContainerFactory {
 
     /**
      * Creates a renderer factory. By default it returns a
-     * {@link BasicRendererFactory}, composed of an
-     * {@link UntypedAttributeRenderer} as default, and delegates of
+     * {@link BasicRendererFactory}, composed of the {@link Renderer} returned by
+     * {@link #createDefaultAttributeRenderer} as default, and delegates of
      * {@link StringRenderer}, {@link DispatchRenderer},
      * {@link DefinitionRenderer}.
      *
@@ -363,7 +363,7 @@ public class BasicTilesContainerFactory extends AbstractTilesContainerFactory {
     }
 
     /**
-     * Creates a {@link AttributeRenderer} that uses a {@link DispatchRenderer}.
+     * Creates a {@link Renderer} as an instance of {@link DispatchRenderer}.
      *
      * @param rendererFactory The renderer factory to configure.
      * @param applicationContext The Tiles application context.
@@ -381,7 +381,7 @@ public class BasicTilesContainerFactory extends AbstractTilesContainerFactory {
     }
 
     /**
-     * Creates a {@link AttributeRenderer} using a {@link DefinitionRenderer}.
+     * Creates a {@link Renderer} as an instance of {@link DispatchRenderer}.
      *
      * @param rendererFactory The renderer factory to configure.
      * @param applicationContext The Tiles application context.

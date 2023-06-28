@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DelegatePropertyAccessor.java 1049696 2010-12-15 20:30:10Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -32,7 +32,7 @@ import ognl.PropertyAccessor;
  * another {@link PropertyAccessor}.
  *
  * @param <T> The type of the accessed root object.
- * @version $Rev$ $Date$
+ * @version $Rev: 1049696 $ $Date: 2010-12-16 07:30:10 +1100 (Thu, 16 Dec 2010) $
  * @since 2.2.0
  */
 public class DelegatePropertyAccessor<T> implements PropertyAccessor {

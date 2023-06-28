@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PropertyAccessorDelegateFactory.java 817009 2009-09-20 11:26:26Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import ognl.PropertyAccessor;
  * object to evaluate.
  *
  * @param <T> The type of the root object to evaluate.
- * @version $Rev$ $Date$
+ * @version $Rev: 817009 $ $Date: 2009-09-20 21:26:26 +1000 (Sun, 20 Sep 2009) $
  * @since 2.2.0
  */
 public interface PropertyAccessorDelegateFactory<T> {

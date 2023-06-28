@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 /*
- * $Id$
+ * $Id: pom.xml 1810193 2017-09-30 11:03:37Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -25,7 +25,7 @@
   <parent>
     <artifactId>tiles-parent</artifactId>
     <groupId>org.apache.tiles</groupId>
-    <version>3.0.8</version>
+    <version>3.0.8-nubitic-jakarta-api</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
@@ -37,7 +37,7 @@
     <plugins>
       <plugin>
         <groupId>org.apache.tiles.autotag.plugin</groupId>
-        <artifactId>maven-autotag-plugin</artifactId>
+        <artifactId>tiles-maven-autotag-plugin</artifactId>
         <version>${tiles.autotag.version}</version>
         <executions>
             <execution>
@@ -70,14 +70,18 @@
     </dependency>
 
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>org.apache.velocity</groupId>
-      <artifactId>velocity-tools</artifactId>
-    </dependency>
+  	<dependency>
+	    <groupId>org.apache.velocity.tools</groupId>
+	    <artifactId>velocity-tools-generic</artifactId>
+  	</dependency>
+	<dependency>
+	    <groupId>org.apache.velocity.tools</groupId>
+	    <artifactId>velocity-tools-view</artifactId>
+	</dependency>
 
     <dependency>
       <groupId>commons-digester</groupId>

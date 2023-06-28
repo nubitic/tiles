@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: LocaleResolver.java 833737 2009-11-07 19:17:09Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.apache.tiles.request.Request;
  * It represents an object able to resolve the current locale for the current
  * request, where its strategy depends on its implementation.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 833737 $ $Date: 2009-11-08 06:17:09 +1100 (Sun, 08 Nov 2009) $
  */
 public interface LocaleResolver {
 

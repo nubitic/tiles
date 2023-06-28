@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PrefixedPatternDefinitionResolverTest.java 795602 2009-07-19 19:35:19Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -36,7 +36,7 @@ import org.junit.Test;
 /**
  * Tests {@link PrefixedPatternDefinitionResolver}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 795602 $ $Date: 2009-07-20 05:35:19 +1000 (Mon, 20 Jul 2009) $
  */
 public class PrefixedPatternDefinitionResolverTest {
 

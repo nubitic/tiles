@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: SimpleTilesListenerTest.java 1058093 2011-01-12 11:49:02Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.junit.Test;
 /**
  * Tests {@link SimpleTilesListener}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1058093 $ $Date: 2011-01-12 22:49:02 +1100 (Wed, 12 Jan 2011) $
  */
 public class SimpleTilesListenerTest {
 

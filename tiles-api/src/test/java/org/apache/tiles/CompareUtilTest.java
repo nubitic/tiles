@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CompareUtilTest.java 832082 2009-11-02 20:00:46Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.junit.Test;
 /**
  * Tests {@link CompareUtil}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 832082 $ $Date: 2009-11-03 07:00:46 +1100 (Tue, 03 Nov 2009) $
  */
 public class CompareUtilTest {
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: package-info.java 1044659 2010-12-11 14:16:04Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -74,7 +74,7 @@
  a resource inside the current site.</p>
  </div>
  <div class="subsection1">
- <a name="doc.InsertPageWithAttributes"></a>
+ <a id="doc.InsertPageWithAttributes"></a>
 
  <h3>Insert a Tiles passing some attributes</h3>
  <pre>
